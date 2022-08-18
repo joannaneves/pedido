@@ -1,0 +1,661 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+body {
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #F5F5F5;;
+}
+
+.coordenadas {
+    text-align: center;
+    margin: 3px 5px;;
+    font-size: 54px;
+    color: #742525;
+    text-shadow: 3px 3px 3px #3d1212;
+    font-weight: bolder;
+}
+
+.texto-data {
+    text-align: center;
+    font-size: 22px;
+    margin: 5px 5px 15px 15px;
+    color: #460909;
+}
+
+.secao-coordenadas p {
+    font-size: 28px;
+    text-shadow: 2px 2px 8px rgb(126, 126, 126);
+    margin: 0 10px;
+    padding: 50px;
+    align-self: center;
+    text-align: justify;
+}
+
+.primeira-coordenada {
+    padding-bottom: 45px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.texto-container1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.texto-container1 iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.segunda-coordenada {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#iframe-pra-mobile {
+    display: none;
+}
+
+.texto-container2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.texto-container2 iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.texto-container2 img {
+    width: auto;
+    height: auto;
+    transition: all 1s;
+}
+
+.texto-container2 img:hover {
+    transform: scale(1.05);
+    box-shadow: 1px 1px 15px black;
+}
+
+.hackerwoman {
+    border-top: 2px solid rgba(148, 146, 146, 0.8);
+    background: url(imagens/vaporwave.jpg);
+    background-color: pink;
+    color: aqua;
+    padding: 2em;
+    font-family: 'Inconsolata', monospace;
+    position: relative;
+    height: 50px;
+}
+
+.hackerwoman button {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: aqua;
+    font-weight: bold;
+    font-size: 22px;
+    background: rgb(238, 141, 157);
+    border: 1px solid rgb(112, 112, 112);
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 15px;
+    width: 25%;
+    box-shadow: 1px 1px 8px black;
+    transition: all 1s;
+}
+
+.hackerwoman button:hover {
+    width: 50%;
+}
+
+.hackerwoman .container {
+    border: 2px solid rgb(39, 39, 39);
+    background: rgb(235, 162, 174);
+    border-radius: 10px;
+    margin: 0 15em;
+    padding: 1em;
+    box-shadow: 5px 5px 15px black;
+    transition: all 1s;
+    display: none;
+    grid-template-columns: 1fr 1fr;
+}
+
+.hackerwoman .container:hover {
+    box-shadow: 10px 10px 25px black;
+    transform: scale(1.01);
+}
+
+.main-container h2 {
+    font-size: 38px;
+    margin-left: 45px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 0;
+    display: inline;
+}
+
+#icone-globo-papel {
+    width: 35px;
+    justify-content: bottom;
+}
+
+.main-container a {
+    color: aqua;
+    font-size: 30px;
+    display: inline-block;
+    margin-left: 45px;
+    font-weight: bold;
+    margin-bottom: 45px;
+}
+
+.main-container a:hover {
+    color: rgb(0, 185, 185);
+}
+
+.main-container a:visited {
+    color: rgb(21, 104, 104);
+}
+
+.main-container a:active {
+    color: rgb(212, 69, 200);
+}
+
+#foto-container-vaporwave {
+    width: 300px;
+    margin-left: 100px;
+    display: block;
+}
+
+.gif-container-escondido {
+    display: none;
+}
+
+.pedido {
+    margin: 25px 30px 0 45px;
+    padding: 25px 0;
+    border: 2px solid purple;
+    border-radius: 5px;
+    background: rgb(211, 131, 187);
+    text-align: center;
+}
+
+.pedido-pergunta {
+    margin: 15px 0 5px 0;
+    text-align: center;
+}
+
+#icone-globo1 {
+    width: 25px;
+    justify-content: bottom;
+}
+
+#icone-globo2 {
+    width: 30px;
+    justify-content: bottom;
+}
+
+.pedido-pergunta p {
+    display: inline;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 48px;
+    justify-content: center;
+    margin: 0 3px;
+    text-shadow: 2px 2px 5px rgb(187, 39, 187);
+}
+
+.pedido-resposta {
+    font-size: 38px;
+    text-align: justify;
+    margin: 15px 0 0 45px;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px rebeccapurple;
+    margin-left: 30%;
+}
+
+.pedido-resposta input {
+    margin: 15px 0;
+}
+
+.pedido-resposta #submit-btn {
+    color: aqua;
+    text-shadow: 1px 1px 10px rebeccapurple;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 20px;
+    border: 2px solid aqua;
+    border-radius: 5px;
+    background: rgb(241, 69, 184);
+    padding: 15px;
+    width: 50%;
+    cursor: pointer;
+}
+
+.pedido-resposta #submit-btn:hover {
+    color: rgb(241, 69, 184);
+    background: aqua;
+    border: 2px solid rgb(241, 69, 184);
+}
+
+.gif-container {
+    justify-content: center;
+}
+
+.gif-container p {
+    margin: 30px 0;
+    font-weight: bolder;
+    color: aqua;
+    text-shadow: 1px 1px 5px purple;
+    font-size: 44px;
+    font-style: italic;
+}
+
+.gif-container img {
+    justify-content: center;
+}
+
+#gif-coracao1 {
+    width: 175px;
+}
+
+#gif-flores {
+    width: 300px;
+    display: inline;
+    margin-left: 45px;
+}
+
+#gif-coracao2 {
+    width: 300px;
+    margin: 20px 0 0 50px;
+}
+
+#foto-hackerwoman {
+    width: 250px;
+    margin: 0 0 50px 15px;
+}
+
+@media (max-width: 1440px) {
+    .texto-container1 {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    
+    .texto-container1 iframe {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .secao-coordenadas p {
+        font-size: 24px;
+        text-shadow: 2px 2px 8px rgb(126, 126, 126);
+        margin: 0 10px;
+        padding: 0;
+    }
+
+    .texto-container2 {
+        display: grid;
+        grid-template-columns: 2fr 1fr 2fr;
+    }
+    
+    .texto-container2 iframe {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .texto-container2 img {
+        width: 300px;
+        height: auto;
+        transition: all 1s;
+    }
+
+    .hackerwoman .container {
+        border: 2px solid rgb(39, 39, 39);
+        background: rgb(235, 162, 174);
+        border-radius: 10px;
+        margin: 0;
+        padding: 1em;
+        box-shadow: 5px 5px 15px black;
+        transition: all 1s;
+        display: none;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .pedido {
+        margin: 25px 30px 0 45px;
+        padding: 15px 0;
+        border: 2px solid purple;
+        border-radius: 5px;
+        background: rgb(211, 131, 187);
+        text-align: center;
+    }
+    
+    .pedido-pergunta {
+        margin: 15px 0 5px 0;
+        text-align: center;
+    }
+    
+    #icone-globo1 {
+        width: 25px;
+        justify-content: bottom;
+    }
+    
+    #icone-globo2 {
+        width: 30px;
+        justify-content: bottom;
+    }
+    
+    .pedido-pergunta p {
+        display: inline;
+        font-weight: bold;
+        text-decoration: underline;
+        font-size: 42px;
+        justify-content: center;
+        margin: 0 3px;
+        text-shadow: 2px 2px 5px rgb(187, 39, 187);
+    }
+    
+    .pedido-resposta {
+        font-size: 32px;
+        text-align: justify;
+        margin: 15px 0 0 45px;
+        font-weight: bold;
+        text-shadow: 1px 1px 5px rebeccapurple;
+        margin-left: 30%;
+    }
+    
+    .pedido-resposta input {
+        margin: 15px 0;
+    }
+
+    #gif-coracao1 {
+        width: 150px;
+    }
+    
+    #gif-flores {
+        width: 225px;
+        display: inline;
+        margin-left: 45px;
+    }
+    
+    #gif-coracao2 {
+        width: 200px;
+        margin: 50px 0 0 50px;
+    }
+    
+    #foto-hackerwoman {
+        width: 225px;
+        margin: 0 0 50px 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .coordenadas {
+        font-size: 26px;
+        text-shadow: 2px 2px 5px #3d1212;
+    }
+
+    .texto-data {
+        font-size: 16px;
+    }
+
+    .primeira-coordenada {
+        padding-bottom: 25px;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    }
+    
+    .texto-container1 {
+        display: block;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .texto-container1 iframe {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .secao-coordenadas p {
+        font-size: 14px;
+        text-shadow: 2px 2px 8px rgb(126, 126, 126);
+        margin: 5px 10px 0 10px;
+        padding: 0;
+    }
+
+    #iframe-pra-mobile {
+        display: block;
+    }
+
+    #iframe-normal {
+        display: none;
+    }
+    
+    .texto-container2 {
+        display: block;
+    }
+    
+    .texto-container2 iframe {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .texto-container2 img {
+        width: 100%;
+        height: auto;
+        transition: all 1s;
+    }
+
+    .hackerwoman {
+        border-top: 2px solid rgba(148, 146, 146, 0.8);
+        background: url(imagens/vaporwave.jpg);
+        background-color: pink;
+        color: aqua;
+        padding: 0.5em;
+        font-family: 'Inconsolata', monospace;
+        position: relative;
+        height: 75px;
+    }
+    
+    .hackerwoman button {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-transform: uppercase;
+        text-decoration: underline;
+        color: aqua;
+        font-weight: bold;
+        font-size: 22px;
+        background: rgb(238, 141, 157);
+        border: 1px solid rgb(112, 112, 112);
+        border-radius: 10px;
+        cursor: pointer;
+        padding: 6px;
+        width: 50%;
+        box-shadow: 1px 1px 8px black;
+        transition: all 1s;
+    }
+    
+    .hackerwoman button:hover {
+        width: 50%;
+    }
+    
+    .hackerwoman .container {
+        border: 2px solid rgb(39, 39, 39);
+        background: rgb(235, 162, 174);
+        border-radius: 10px;
+        margin: 0;
+        padding: 1em;
+        box-shadow: 5px 5px 15px black;
+        transition: all 1s;
+        display: none;
+        grid-template-columns: 1fr;
+    }
+    
+    .hackerwoman .container:hover {
+        box-shadow: 10px 10px 25px black;
+        transform: scale(1);
+    }
+    
+    .main-container h2 {
+        font-size: 22px;
+        font-weight: bold;
+        text-decoration: underline;
+        margin: 0;
+        display: inline;
+    }
+    
+    #icone-globo-papel {
+        width: 25px;
+        justify-content: bottom;
+    }
+    
+    .main-container a {
+        color: aqua;
+        font-size: 16px;
+        display: inline-block;
+        margin: 0 0 15px 15px;
+        font-weight: bold;
+    }
+    
+    .main-container a:hover {
+        color: rgb(0, 211, 211);
+    }
+    
+    .main-container a:visited {
+        color: aqua;
+    }
+    
+    .main-container a:active {
+        color: rgb(212, 69, 200);
+    }
+    
+    #foto-container-vaporwave {
+        width: 200px;
+        margin-left: 50px;
+        display: block;
+    }
+    
+    .gif-container {
+        display: none;
+    }
+
+    .gif-container-escondido {
+        display: block;
+    }
+    
+    .gif-container-escondido p {
+        margin: 15px 0;
+        font-weight: bolder;
+        color: aqua;
+        text-shadow: 1px 1px 5px purple;
+        font-size: 30px;
+        font-style: italic;
+    }
+    
+    .gif-container-escondido img {
+        justify-content: center;
+    }
+    
+    #gif-coracao1 {
+        width: 95px;
+        margin-left: 15px;
+    }
+    
+    #gif-flores {
+        width: 130px;
+        display: inline;
+        margin-left: 20px;
+    }
+    
+    #gif-coracao2 {
+        display: none;
+    }
+    
+    #foto-hackerwoman {
+        width: 200px;
+        justify-content: center;
+        margin: 10px 50px;
+    }
+
+    .pedido {
+        margin: 0;
+        padding: 15px 0;
+        border: 2px solid purple;
+        border-radius: 5px;
+        background: rgb(211, 131, 187);
+        text-align: center;
+    }
+    
+    .pedido-pergunta {
+        margin: 5px 0;
+        text-align: center;
+    }
+    
+    #icone-globo1 {
+        width: 15px;
+        justify-content: bottom;
+    }
+    
+    #icone-globo2 {
+        width: 20px;
+        justify-content: bottom;
+    }
+    
+    .pedido-pergunta p {
+        display: inline;
+        font-weight: bold;
+        text-decoration: underline;
+        font-size: 22px;
+        justify-content: center;
+        margin: 0;
+        text-shadow: 2px 2px 5px rgb(187, 39, 187);
+    }
+    
+    .pedido-resposta {
+        font-size: 18px;
+        text-align: justify;
+        margin: 10px 0 0 25px;
+        font-weight: normal;
+        text-shadow: 1px 1px 5px rebeccapurple;
+        margin-left: 30%;
+    }
+    
+    .pedido-resposta input {
+        margin: 8px 0;
+    }
+    
+    .pedido-resposta #submit-btn {
+        color: aqua;
+        text-shadow: 1px 1px 10px rebeccapurple;
+        font-weight: normal;
+        text-transform: uppercase;
+        font-style: italic;
+        text-decoration: underline;
+        font-size: 14px;
+        border: 2px solid aqua;
+        border-radius: 5px;
+        background: rgb(241, 69, 184);
+        padding: 8px;
+        width: 50%;
+        margin: 10px 0 0 0;
+        cursor: pointer;
+    }
+    
+    .pedido-resposta #submit-btn:active {
+        color: rgb(241, 69, 184);
+        background: aqua;
+        border: 2px solid rgb(241, 69, 184);
+    }
+}
