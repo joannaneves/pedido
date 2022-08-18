@@ -25,7 +25,7 @@ botaoForm.addEventListener("click", (event) => {
     document.querySelector(".gif-coracao2-classe").src = "imagens/bert.gif";
     document.querySelector(".gif-coracao2-classe").style.width = "200px";
     document.querySelector(".foto-hackerwoman-classe").src = "imagens/kid-meme.gif";
-    document.querySelector("#foto-container-vaporwave").src = "imagens/MOSHED-2022-3-11-14-33-5.gif";
+    document.querySelector("#foto-container-vaporwave").src = "imagens/MOSHED-2022-3-11-14-33-5.jpeg";
     containerVaporwave.style.background = "rgb(247, 107, 130)";
     
     console.log("ELX ACEITOU!");
